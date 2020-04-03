@@ -1,2 +1,1 @@
-# Homework-Selenium-and-Python
-homework from previous module
+решение задачи из моудя 2.4 Настройка ожиданий
