@@ -15,7 +15,7 @@ try:
     button = WebDriverWait(browser, 12).until(EC.text_to_be_present_in_element((By.ID, "price"), "$100"))
     button1 = browser.find_element_by_id('book')
     button1.click()
-    browser.execute_script("window.scrollBy(0, 400);")
+    browser.execute_script("window.scrollBy(0, 410);")
     x_element = browser.find_element_by_id('input_value')
     x = x_element.text
     print(x)
